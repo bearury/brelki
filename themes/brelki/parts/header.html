@@ -1,11 +1,16 @@
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"primary","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
-<div class="wp-block-group alignwide has-primary-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
-	<!-- wp:group {"layout":{"type":"flex"}} -->
-	<div class="wp-block-group">
-		<!-- wp:site-logo {"width":40} /-->
-		<!-- wp:site-title {"level":0} /-->
-	</div>
-	<!-- /wp:group -->
-	<!-- wp:navigation {"overlayBackgroundColor":"primary","overlayTextColor":"contrast"} /-->
+<!-- wp:blocks-brelki/blocks-header {"memberLink":"/member/","cartLink":"/cart/"} -->
+<div class="wp-block-blocks-brelki-blocks-header">
+    <div class="header-links">
+        <!-- wp:site-logo /-->
+
+        <!-- wp:navigation {"ref":5} /-->
+        <div class="right-sections">
+            <div class="header-search"></div>
+            <div class="header-mode-switcher"></div>
+            <div class="header-cart-link"><a href="/cart/">Cart Link</a></div>
+            <div class="header-mode-switcher"></div>
+            <div class="header-member-link"><a href="/member/">Member Area</a></div>
+        </div>
+    </div>
 </div>
-<!-- /wp:group -->
+<!-- /wp:blocks-brelki/blocks-header -->

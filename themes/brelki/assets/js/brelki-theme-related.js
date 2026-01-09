@@ -1,0 +1,1 @@
+console.log('🌻: Theme related JavaScript loaded')
