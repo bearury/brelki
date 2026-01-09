@@ -1,0 +1,6 @@
+.srv/database/
+.srv/wordpress/
+!.srv/custom.ini
+/plugins/akismet
+/plugins/hello.php
+/themes/twenty*/
